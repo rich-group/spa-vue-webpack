@@ -64,7 +64,7 @@ const baseConfig = {
       },
       {
         test: /\.(gif|png|jpe?g|svg)$/i,
-        loader: 'url-loader',
+        type: 'asset/inline'
       },
       ...loaders
     ]
